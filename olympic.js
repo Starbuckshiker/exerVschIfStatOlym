@@ -38,8 +38,9 @@ if (people.age >= 18 && people.name === "B"){
  // Silver
 if (1 === 1){
     console.log("strict")
-} else if(1 == 1) {
-    console.log("loose" || "abstract")
+}
+ if(1 == 1) {
+    console.log( "abstract")
 } else { 
     console.log(" not equal at all" )}
 if (1 <= 2 && 2 === 4) {
